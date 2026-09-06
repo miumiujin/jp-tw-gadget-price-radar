@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "jp-tw-apple-price-radar"
+version = "0.4.0"
+description = "Japan-Taiwan public gadget price comparison for Apple, gaming, and audio products"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "beautifulsoup4>=4.12.3",
+  "requests>=2.32.0",
+  "curl-cffi>=0.7.4",
+  "pandas>=2.2.0",
+  "streamlit>=1.39.0",
+  "typer>=0.12.5",
+  "rich>=13.9.0",
+  "PyYAML>=6.0.2",
+  "python-dateutil>=2.9.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.3.0", "ruff>=0.6.0"]
+
+[project.scripts]
+apple-radar = "apple_radar.cli:app"
+
+[tool.setuptools.packages.find]
+include = ["apple_radar*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+
+[tool.ruff]
+line-length = 100

@@ -1,0 +1,412 @@
+products:
+- id: macbook-air-m2-13-8-256
+  family: MacBook Air
+  chip: M2
+  screen: 13.6
+  ram_gb: 8
+  storage_gb: 256
+  required_groups:
+  - - MacBook Air
+  - - M2
+    - Apple M2
+  - - 13インチ
+    - 13.6-inch
+    - 13.6インチ
+  - - 8GB
+    - 8G
+  - - 256GB
+    - 256G
+    - SSD256GB
+  forbidden_tokens:
+  - 16GB
+  - 16G
+  - 24GB
+  - 24G
+  - ケース
+  - カバー
+  sofmap_query: MacBook Air M2 8GB 256GB
+  janpara_query: MacBook Air M2 8GB 256GB
+  iosys_query: MacBook Air M2 8GB 256GB
+  us3c_terms:
+  - Macbook Air
+  - M2
+  - 8G
+  - '256'
+  segment: Laptop
+- id: macbook-air-m3-13-8-256
+  family: MacBook Air
+  chip: M3
+  screen: 13.6
+  ram_gb: 8
+  storage_gb: 256
+  required_groups:
+  - - MacBook Air
+  - - M3
+    - Apple M3
+  - - 13インチ
+    - 13.6-inch
+    - 13.6インチ
+  - - 8GB
+    - 8G
+  - - 256GB
+    - 256G
+    - SSD256GB
+  forbidden_tokens:
+  - 16GB
+  - 16G
+  - 24GB
+  - 24G
+  - ケース
+  - カバー
+  sofmap_query: MacBook Air M3 8GB 256GB
+  janpara_query: MacBook Air M3 8GB 256GB
+  iosys_query: MacBook Air M3 8GB 256GB
+  us3c_terms:
+  - Macbook Air
+  - M3
+  - 8G
+  - '256'
+  segment: Laptop
+- id: macbook-air-m5-13-16-512
+  family: MacBook Air
+  chip: M5
+  screen: 13
+  ram_gb: 16
+  storage_gb: 512
+  required_groups:
+  - - MacBook Air
+  - - M5
+    - Apple M5
+  - - 13インチ
+    - 13.6-inch
+    - 13.6インチ
+  - - 16GB
+    - 16G
+  - - 512GB
+    - 512G
+    - SSD512GB
+  forbidden_tokens:
+  - 24GB
+  - 24G
+  - 32GB
+  - 32G
+  - 1TB
+  - ケース
+  - カバー
+  sofmap_query: MacBook Air M5 13 16GB 512GB
+  janpara_query: MacBook Air M5 13インチ 16GB 512GB
+  iosys_query: MacBook Air M5 13インチ 16GB 512GB
+  us3c_terms:
+  - Macbook Air
+  - M5
+  - 16G
+  - '512'
+  official_new:
+    verified_at: '2026-09-06'
+    jp:
+      price: 184800
+      url: https://www.apple.com/jp/shop/buy-mac/macbook-air
+    tw:
+      price: 35900
+      url: https://www.apple.com/tw/shop/buy-mac/macbook-air
+  segment: Laptop
+- id: macbook-air-m5-15-16-512
+  family: MacBook Air
+  chip: M5
+  screen: 15
+  ram_gb: 16
+  storage_gb: 512
+  required_groups:
+  - - MacBook Air
+  - - M5
+    - Apple M5
+  - - 15インチ
+    - 15.3-inch
+    - 15.3インチ
+  - - 16GB
+    - 16G
+  - - 512GB
+    - 512G
+    - SSD512GB
+  forbidden_tokens:
+  - 24GB
+  - 24G
+  - 32GB
+  - 32G
+  - 1TB
+  - ケース
+  - カバー
+  sofmap_query: MacBook Air M5 15 16GB 512GB
+  janpara_query: MacBook Air M5 15インチ 16GB 512GB
+  iosys_query: MacBook Air M5 15インチ 16GB 512GB
+  us3c_terms:
+  - Macbook Air
+  - M5
+  - 16G
+  - '512'
+  official_new:
+    verified_at: '2026-09-06'
+    jp:
+      price: 219800
+      url: https://www.apple.com/jp/shop/buy-mac/macbook-air
+    tw:
+      price: 42900
+      url: https://www.apple.com/tw/shop/buy-mac/macbook-air
+  segment: Laptop
+- id: ipad-air-m2-11-128-wifi
+  family: iPad Air
+  chip: M2
+  screen: 11
+  ram_gb: null
+  storage_gb: 128
+  connectivity: WiFi
+  required_groups:
+  - - iPad Air
+  - - M2
+    - 第6世代
+  - - 11インチ
+    - 11-inch
+    - 11型
+  - - 128GB
+    - 128G
+  - - Wi-Fi
+    - WiFi
+  forbidden_tokens:
+  - Cellular
+  - 256GB
+  - 512GB
+  - 1TB
+  - ケース
+  - カバー
+  sofmap_query: iPad Air M2 11 128GB Wi-Fi
+  janpara_query: iPad Air M2 11インチ 128GB Wi-Fi
+  iosys_query: iPad Air M2 11インチ Wi-Fi 128GB
+  us3c_terms:
+  - iPad Air
+  - '11'
+  - M2
+  - 128G
+  - WiFi
+  segment: Tablet
+- id: ipad-pro-m5-11-256-wifi
+  family: iPad Pro
+  chip: M5
+  screen: 11
+  ram_gb: 12
+  storage_gb: 256
+  connectivity: WiFi
+  required_groups:
+  - - iPad Pro
+  - - M5
+  - - 11インチ
+    - 11-inch
+    - 11型
+  - - 256GB
+    - 256G
+  - - Wi-Fi
+    - WiFi
+  forbidden_tokens:
+  - Cellular
+  - 512GB
+  - 1TB
+  - 2TB
+  - ケース
+  - カバー
+  sofmap_query: iPad Pro M5 11 256GB Wi-Fi
+  janpara_query: iPad Pro M5 11インチ 256GB Wi-Fi
+  iosys_query: iPad Pro M5 11インチ Wi-Fi 256GB
+  us3c_terms:
+  - iPad Pro
+  - '11'
+  - M5
+  - 256G
+  - WiFi
+  official_new:
+    verified_at: '2026-09-06'
+    jp:
+      price: 209800
+      url: https://www.apple.com/jp/shop/buy-ipad/ipad-pro
+    tw:
+      price: 39900
+      url: https://www.apple.com/tw/shop/buy-ipad/ipad-pro
+  segment: Tablet
+- id: ipad-mini-a17pro-128-wifi
+  family: iPad mini
+  chip: A17 Pro
+  screen: 8.3
+  ram_gb: 8
+  storage_gb: 128
+  connectivity: WiFi
+  required_groups:
+  - - iPad mini
+  - - A17 Pro
+    - 第7世代
+  - - 128GB
+    - 128G
+  - - Wi-Fi
+    - WiFi
+  forbidden_tokens:
+  - Cellular
+  - 256GB
+  - 512GB
+  - ケース
+  - カバー
+  sofmap_query: iPad mini A17 Pro 128GB Wi-Fi
+  janpara_query: iPad mini A17 Pro 128GB Wi-Fi
+  iosys_query: iPad mini A17 Pro Wi-Fi 128GB
+  us3c_terms:
+  - iPad mini
+  - A17 Pro
+  - 128G
+  - WiFi
+  official_new:
+    verified_at: '2026-09-06'
+    jp:
+      price: 99800
+      url: https://www.apple.com/jp/shop/buy-ipad/ipad-mini
+    tw:
+      price: 19900
+      url: https://www.apple.com/tw/shop/buy-ipad/ipad-mini
+  segment: Tablet
+- id: ipad-mini-a17pro-256-wifi
+  family: iPad mini
+  chip: A17 Pro
+  screen: 8.3
+  ram_gb: 8
+  storage_gb: 256
+  connectivity: WiFi
+  required_groups:
+  - - iPad mini
+  - - A17 Pro
+    - 第7世代
+  - - 256GB
+    - 256G
+  - - Wi-Fi
+    - WiFi
+  forbidden_tokens:
+  - Cellular
+  - 128GB
+  - 512GB
+  - ケース
+  - カバー
+  sofmap_query: iPad mini A17 Pro 256GB Wi-Fi
+  janpara_query: iPad mini A17 Pro 256GB Wi-Fi
+  iosys_query: iPad mini A17 Pro Wi-Fi 256GB
+  us3c_terms:
+  - iPad mini
+  - A17 Pro
+  - 256G
+  - WiFi
+  official_new:
+    verified_at: '2026-09-06'
+    jp:
+      price: 116800
+      url: https://www.apple.com/jp/shop/buy-ipad/ipad-mini
+    tw:
+      price: 23400
+      url: https://www.apple.com/tw/shop/buy-ipad/ipad-mini
+  segment: Tablet
+- id: airpods-4-anc
+  family: AirPods
+  display_name: AirPods 4
+  variant: ANC
+  segment: Audio
+  spec_override: Active Noise Cancellation · USB-C Case
+  required_groups:
+  - - AirPods 4
+  - - アクティブノイズキャンセリング
+    - ANC
+    - 主動式降噪
+  forbidden_tokens:
+  - ケース
+  - カバー
+  - イヤーチップ
+  - ストラップ
+  - AppleCare
+  sofmap_query: AirPods 4 アクティブノイズキャンセリング
+  janpara_query: AirPods 4 アクティブノイズキャンセリング
+  iosys_query: AirPods 4 アクティブノイズキャンセリング
+  us3c_terms: []
+  official_new:
+    verified_at: '2026-09-06'
+    note: Official new MSRP; verified 2026-09-06
+    jp:
+      price: 29800
+      url: https://www.apple.com/jp/shop/buy-airpods/airpods-4
+      source: Apple Store JP
+    tw:
+      price: 5990
+      url: https://www.apple.com/tw/shop/buy-airpods/airpods-4
+      source: Apple Store TW
+- id: nintendo-switch-2
+  family: Nintendo Switch 2
+  display_name: Nintendo Switch 2
+  segment: Gaming
+  spec_override: Standard Console · 7.9" · 256GB
+  required_groups:
+  - - Nintendo Switch 2
+    - Switch 2
+  - - 本体
+    - 主機
+  forbidden_tokens:
+  - マリオカート
+  - Mario Kart
+  - ポケモン
+  - Pokémon
+  - ケース
+  - 保護フィルム
+  - コントローラー
+  - Joy-Con
+  - セット
+  sofmap_query: Nintendo Switch 2 本体
+  janpara_query: Nintendo Switch 2 本体
+  iosys_query: Nintendo Switch 2 本体
+  us3c_terms: []
+  official_new:
+    verified_at: '2026-09-06'
+    note: Official new MSRP; verified 2026-09-06
+    jp:
+      price: 49980
+      url: https://www.nintendo.co.jp/corporate/release/2025/250402.html
+      source: Nintendo JP
+    tw:
+      price: 15880
+      url: https://www.nintendo.com/tw/hardware/switch2/lineup/
+      source: Nintendo TW
+- id: ps5-slim-disc-1tb
+  family: PlayStation 5
+  display_name: PlayStation 5 Slim
+  variant: Disc Edition
+  segment: Gaming
+  spec_override: Disc Edition · 1TB
+  required_groups:
+  - - PlayStation 5
+    - PS5
+  - - CFI-2000A01
+    - CFI-2118A01
+    - 1TB
+    - Slim
+  forbidden_tokens:
+  - デジタル
+  - Digital
+  - Pro
+  - コントローラー
+  - カバー
+  - スタンド
+  - ソフト
+  - ヘッドセット
+  sofmap_query: PlayStation 5 Slim 1TB CFI-2000A01
+  janpara_query: PlayStation 5 Slim 1TB CFI-2000A01
+  iosys_query: PlayStation 5 Slim 1TB CFI-2000A01
+  us3c_terms: []
+  official_new:
+    verified_at: '2026-09-06'
+    note: Official new MSRP; verified 2026-09-06
+    jp:
+      price: 79980
+      url: https://pur.store.sony.jp/ps5/products/2025_daysofplay/CFI-2000A01_purchase/
+      source: Sony Store JP
+    tw:
+      price: 19989
+      url: https://store.sony.com.tw/product/show/8a818bc39abee3b1019ae7e393340f04
+      source: Sony Store TW
